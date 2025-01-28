@@ -1,0 +1,26 @@
+.responsive-video {
+    border-radius: 5%; /* Makes the video circular */
+    object-fit: cover;
+    object-position: center top;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow */
+    width: 18rem; /* Default size */
+    height: 18rem; /* Default size */
+    transition: all 0.3s ease; /* Smooth resizing effect */
+  }
+  
+  @media (max-width: 768px) {
+    .responsive-video {
+      width: 18rem; /* Smaller size for tablets */
+      height: 18rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .responsive-video {
+      width: 12rem; /* Even smaller size for mobile phones */
+      height: 12rem;    
+    }
+  }
+
+
+  

@@ -1,0 +1,77 @@
+/* General Container Styles */
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+  
+  /* Product Card Styles */
+  .product-card {
+    width: calc(50% - 1rem); /* Two cards in one row on smaller screens */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+    padding: 1rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .product-card h3 {
+    font-size: 18px;
+    margin: 0.5rem 0;
+  }
+  
+  .product-card p {
+    font-size: 14px;
+    color: #555;
+    margin: 0.5rem 0;
+  }
+  
+  .product-card .price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Button Styles */
+  .custom-button {
+    background-image: url("https://ptal.in/cdn/shop/t/41/assets/collection_pro_btn_mobile.svg");
+    /* background-size: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 1rem;
+  }
+  
+  .custom-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive Design */
+  @media (min-width: 768px) {
+    .product-card {
+      width: calc(25% - 1rem); /* Four cards in one row on larger screens */
+    }
+  }
+  .underline:hover {
+    transform: scaleX(1); /* Show underline on hover */
+    transform-origin: left;
+  }

@@ -1,0 +1,30 @@
+.custom-button {
+  background-image: url("https://ptal.in/cdn/shop/t/41/assets/collection_pro_btn_mobile.svg");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 90%; /* Adjust the button's width to fit within its container */
+  max-width: 200px; /* Limit the maximum width for larger screens */
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  margin: 1rem auto; /* Centers the button horizontally */
+  display: block; /* Ensures proper centering */
+}
+
+.custom-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 10px rgb(240, 6, 6);
+}
+
+@media (min-width: 768px) {
+  .custom-button {
+    width: 200px; /* Set a fixed width for larger screens */
+    margin: 1rem 0; /* Adjust spacing for desktop view */
+  }
+}
