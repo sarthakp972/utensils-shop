@@ -1,10 +1,10 @@
 
 import { Link } from "react-router-dom";
-import Carousel1 from "../components/Carousel1";
-import HeroSection from "../components/HeroSection";
-import HeroSection2 from "../components/HeroSection2";
-import HomeVideos from "../components/HomeVideos";
-import Line from "../components/Line";
+import Carousel1 from "../Components/Carousel1";
+import HeroSection from "../Components/HeroSection";
+import HeroSection2 from "../Components/HeroSection2";
+import HomeVideos from "../Components/HomeVideos";
+import Line from "../Components/Line";
 import Homesection3 from "../Components/Homesection3";
 import RunningNav from "../Components/RunningNav";
 import HeroSection4 from "../Components/HeroSection4";
